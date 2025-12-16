@@ -1,0 +1,230 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gauri Pakhare - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+ <!-- Navigation -->
+  <nav id="home">
+    <div class="nav-left">
+      <div class="profile-name">Gauri's Portfolio</div>
+      <div class="contact-info">
+        <span>Email: gauripakhare2005@gmail.com</span> | 
+        <span>Phone: 8329772607</span>
+      </div>
+    </div>
+
+    <!-- Menu Button -->
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+    <!-- Nav Links -->
+    <div class="nav-right" id="navLinks">
+      <a href="#about-me" onclick="toggleMenu()">About</a>
+      <a href="#education" onclick="toggleMenu()">Education</a>
+      <a href="#skills" onclick="toggleMenu()">Skills</a>
+      <a href="#projects" onclick="toggleMenu()">Projects</a>
+      <a href="#experience" onclick="toggleMenu()">Experience</a>
+      <a href="#certifications" onclick="toggleMenu()">Certifications</a>
+      <a href="#extracurricular" onclick="toggleMenu()">Activities</a>
+    </div>
+  </nav>
+
+  <!-- About Me -->
+  <section id="about-me" class="about-me">
+    <div class="profile-image">
+      <img src="./Gauri Pakhare.jpg" alt="Gauri Pakhare">
+    </div>
+    <div class="about-text">
+      <h1>Hi, I'm <span class="highlight">Gauri Pakhare</span></h1>
+      <p>Computer Science and Engineering student passionate about web development. Strong foundation in HTML, CSS, and JavaScript, with hands-on experience in frontend development and ongoing learning in React, Node.js, Express, and MongoDB through project-based work. Created projects including a portfolio website, a Homely Hub property booking platform, an AI-powered form filling app, a Zomato landing page clone, and simple web games. Seeking an internship to gain real-world experience and contribute to impactful projects.</p>
+      <div class="buttons">
+        <a href="./Gauri_Pakhare Resume.pdf" download><button>Download Resume</button></a>
+        <a href="https://github.com/gauripakhare" target="_blank"><button>GitHub</button></a>
+        <a href="https://www.linkedin.com/in/gauri-pakhare-02557628a" target="_blank"><button>LinkedIn</button></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <h2>Education</h2>
+    <div class="cards-container">
+      <div class="card">
+        <h3>Bachelor of Engineering in CSE</h3>
+        <p>SSGMCE, Shegaon | CGPA: 9.3 (till 4th Sem)</p>
+      </div>
+      <div class="card">
+        <h3>Higher Secondary Certificate (HSC)</h3>
+        <p>D.E.S Junior college, Datala | 87.17% | 2023</p>
+      </div>
+      <div class="card">
+        <h3>Secondary School Certificate (SSC)</h3>
+        <p>D.E.S Highschool, Datala | 95.8% | 2021</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="cards-container">
+      <div class="card">
+        <h3>Technical Skills</h3>
+        <ul>
+        <li><h4>Strong:</h4> <p>HTML, CSS, JavaScript</p></li>
+        <li><h4>Familiar / Learning:</h4> <p>React.js, Node.js, Express.js, MongoDB</p></li>
+        <li><h4>Tools:</h4> <p>Git, GitHub</p></li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Soft Skills</h3>
+        <ul> <li>Teamwork</li><li>Leadership</li><li>Communication</li><li>Time Management</li><li>Quick Learner</li></ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="cards-container">
+      <div class="card">
+        <h3>AI-Powered SmartFormFiller</h3>
+        <p class="tech">Next.js, React, TypeScript, Supabase, PostgreSQL, Vercel AI SDK, GPT-4o-mini, Groq LLM, OCR.space API, Tailwind CSS</p>
+        <ul>
+          <li>AI-driven system to extract user details from government documents.</li>
+          <li>Maps extracted fields to official forms using structured JSON pipelines.</li>
+          <li>Features: authentication, multilingual UI, voice input, secure storage.</li>
+        </ul>
+        <div class="project-links">
+          <a href="http://smart-form-filler-hn8lofugd-gauripakhares-projects.vercel.app" target="_blank">Live Demo</a>
+          <a href="https://github.com/gauripakhare/Smart-Form-Filler" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Homely Hub - Property Booking Platform</h3>
+        <p class="tech">HTML, CSS, JavaScript, React, Redux, Node.js, Express, MongoDB</p>
+        <ul>
+          <li>Full-stack MERN app for property search, booking, and rentals.</li>
+          <li>React frontend with reusable components, Redux state management.</li>
+          <li>Node.js backend with REST APIs and MongoDB data storage.</li>
+        </ul>
+        <div class="project-links">
+          <a href="https://homely-hub-prj-frontend.onrender.com" target="_blank">Live Demo</a>
+          <a href="https://github.com/gauripakhare/homely-hub-prj" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Tic Tac Toe Game</h3>
+        <p class="tech">HTML, CSS, JavaScript</p>
+        <ul>
+          <li>Interactive 2-player Tic Tac Toe game built with JavaScript DOM manipulation.</li>
+          <li>Includes dynamic win/draw detection and responsive design.</li>
+        </ul>
+        <div class="project-links">
+          <a href="https://gauripakhare.github.io/TIC_TAC_TOE/" target="_blank">Live Demo</a>
+          <a href="https://github.com/gauripakhare/TIC_TAC_TOE" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Stone-Paper-Scissors Game</h3>
+        <p class="tech">HTML, CSS, JavaScript</p>
+        <ul>
+          <li>Classic Stone-Paper-Scissors game against computer using JavaScript logic.</li>
+          <li>Tracks scores and declares winner dynamically.</li>
+        </ul>
+        <div class="project-links">
+          <a href="https://gauripakhare.github.io/StonePaperScissors/" target="_blank">Live Demo</a>
+          <a href="https://github.com/gauripakhare/StonePaperScissors" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Zomato Landing Page Clone</h3>
+        <p class="tech">HTML, CSS</p>
+        <ul>
+          <li>Clone of Zomato landing page with responsive design.</li>
+        </ul>
+        <div class="project-links">
+          <a href="https://gauripakhare.github.io/ZomatoLandingPage/" target="_blank">Live Demo</a>
+          <a href="https://github.com/gauripakhare/ZomatoLandingPage" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="cards-container">
+      <div class="card">
+        <h3>Full Stack Web Development Intern</h3>
+        <h4>WebStack Academy (WSA) | Sep 2025 - Nov 2025</h4>
+        <ul>
+          <li>Developed foundational skills in HTML, CSS, JavaScript, React.</li>
+          <li>Built a full-stack MERN project integrating APIs and backend logic.</li>
+          <li>Learned full-stack architecture, workflows, and real-world app development.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <div class="cards-container">
+      <div class="card">
+        <h3>Introduction to Web Development with HTML, CSS, JavaScript</h3>
+        <h4>IBM (Coursera) | July 2024</h4>
+        <a href="./Coursera html css js.pdf" download class="download-btn">Download Certificate</a>
+      </div>
+      <div class="card">
+        <h3>Learn and Master C Programming for Absolute Beginners</h3>
+        <h4>INFOSYS | December 2023</h4>
+        <a href="./infosys c programming.jpeg" download class="download-btn">Download Certificate</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Extracurricular Activities -->
+  <section id="extracurricular">
+    <h2>Extracurricular Activities</h2>
+    <div class="cards-container">
+      <div class="card">
+        <h3>Class Representative</h3>
+        <p>Aug 2024 - Jun 2025 | Managed communication between faculty & students, academic updates.</p>
+      </div>
+      <div class="card">
+        <h3>CSESA Committee Member (Management & Creativity)</h3>
+        <p>Coordinated departmental events and technical sessions for student engagement.</p>
+      </div>
+      <div class="card">
+        <h3>Pursuit – National Level Technical Symposium</h3>
+        <p>Contributed to event theme, stage setup, and promotional materials.</p>
+      </div>
+      <div class="card">
+        <h3>University-Level Basketball Player</h3>
+        <p>Represented Sant Gadge Baba Amravati University in intercollegiate tournaments.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Gauri Pakhare | 
+      <a href="mailto:gauripakhare2005@gmail.com">Email</a> | 
+      <a href="https://github.com/gauripakhare" target="_blank">GitHub</a> | 
+      <a href="https://www.linkedin.com/in/gauri-pakhare-02557628a" target="_blank">LinkedIn</a>
+    </p>
+  </footer>
+
+</body>
+</html>
